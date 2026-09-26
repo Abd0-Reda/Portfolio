@@ -1,32 +1,125 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# Abdelrhman Reda | Developer Portfolio
 
-Currently, two official plugins are available:
+A personal portfolio website showcasing my projects, technical skills, and experience as a Computer Science student and aspiring Software Engineer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Built with a modern frontend stack, featuring a dark F1-inspired aesthetic, smooth animations, and interactive project showcases.
 
-## React Compiler
+## Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ **Portfolio:** [View My Portfolio](https://abd0-reda.github.io/Portfolio/)
 
-## Expanding the Oxlint configuration
+## About Me
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+Hi, I'm **Abdelrhman Reda**, a Computer Science student at Minia University with a passion for software development, backend engineering, network engineering, and cloud computing.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+I enjoy building practical, reliable, and user-friendly web applications, exploring new technologies, and continuously improving my development skills.
+
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React | Building interactive user interfaces |
+| TypeScript | Type-safe JavaScript development |
+| Vite | Development server and build tooling |
+| Tailwind CSS | Responsive styling and UI design |
+| Framer Motion | Animations and smooth transitions |
+| Lucide React | Icons |
+
+## Featured Projects
+
+### 01 — Nature E-Commerce
+
+A full-stack e-commerce web application built with Django, featuring product browsing and an online shopping experience.
+
+- **Backend:** Python, Django
+- **Repository:** [Nature E-Commerce](https://github.com/Abd0-Reda/Nature)
+
+### 02 — Cinema Booking System
+
+A Django-based cinema booking application that allows users to browse movies, explore showtimes, select seats, and manage bookings.
+
+- **Backend:** Python, Django
+- **Repository:** [Cinema Booking System](https://github.com/Abd0-Reda/Cenima_project)
+
+### 03 — Home Service App
+
+A Flask-based web application for exploring home services and managing service requests.
+
+- **Backend:** Python, Flask
+- **Repository:** [Home Service App](https://github.com/Abd0-Reda/home_service_app)
+
+## Features
+
+- Modern dark-themed design with an F1-inspired aesthetic.
+- Fully responsive layout for desktop, tablet, and mobile.
+- Interactive project cards with detailed project showcases.
+- Smooth scrolling and animated transitions.
+- Project navigation with Previous and Next controls.
+- Project screenshots, technology stacks, and feature descriptions.
+- Dedicated sections for skills, experience, and contact.
+
+## Getting Started
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- npm (included with Node.js)
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Abd0-Reda/Portfolio.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Portfolio
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+### Production Build
+
+To create a production-ready build:
+
+```bash
+npm run build
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Contact
+
+I'm always open to discussing software development, collaboration, and interesting projects.
+
+- **GitHub:** [Abd0-Reda](https://github.com/Abd0-Reda)
+- **LinkedIn:** [Abdelrhman Reda](https://www.linkedin.com/in/abdelrhman-reda/)
+
+---
+
+Designed and developed by **Abdelrhman Reda**.
